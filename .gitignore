@@ -1,3 +1,7 @@
+/.idea/
+/queue
+/CMakeLists.txt
+
 # Prerequisites
 *.d
 
