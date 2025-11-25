@@ -12,12 +12,12 @@ int rear = -1;
 
 void enqueue(int data) {
     if (rear == MAX -1) {
-        //queue overflow
+        // Queue overflow
         printf("Queue is full");
         return;
     }
     if (front == -1) {
-        //setting front to 0 if first element
+        // Setting front to 0 if first element
         front = 0;
     }
     rear++;
@@ -27,7 +27,7 @@ void enqueue(int data) {
 
 void dequeue() {
     if (front == -1 || front > rear) {
-        //if front goes ahead of rear, there are no elements
+        // If front goes ahead of rear, there are no elements
         printf("Queue is empty");
         return;
     }
@@ -37,6 +37,7 @@ void dequeue() {
     printf("Successfully deleted %d\n", deleted_data);
 
     if (front > rear) {
+        // If front exceeds rear, no elements are left, sets front and rear to -1 (default state)
         front = -1;
         rear = -1;
     }
