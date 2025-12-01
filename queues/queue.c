@@ -23,7 +23,7 @@ void enqueue(int data) {
     rear++;
     queue[rear] = data;
     printf("Successfully enqueued %d\n", data);
-}
+} //lala
 
 void dequeue() {
     if (front == -1 || front > rear) {
