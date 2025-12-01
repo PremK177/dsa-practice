@@ -2,10 +2,6 @@
 // Created by prem on 01/12/25.
 //
 
-//
-// Created by prem on 23/11/25.
-//
-
 #include <stdio.h>
 #include <stdlib.h>
 
